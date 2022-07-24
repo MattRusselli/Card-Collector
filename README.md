@@ -27,7 +27,7 @@
 
 #### A wireframe concept of what I plan for the app to look like
 
-#### [Wireframe Workout App](https://wireframe.cc/pro/edit/568227)
+#### [Wireframe Card Collector App](https://wireframe.cc/pro/edit/568227)
 
 ---
 

@@ -12,11 +12,15 @@
 
 #### An app/database for card collectors to keep track of which cards they own at a quick glance.
 
+#### [Component Hierarchy Diagram](https://imgur.com/a/2lCpT6Y)
+
+#### [Entity Relationship Diagram](https://imgur.com/a/7c4sHJW)
+
 ---
 
 ### **_Technologies Used_**
 
-- Mongoose
+- Mongoose/MongoDB
 - Express
 - React JS
 - Node JS

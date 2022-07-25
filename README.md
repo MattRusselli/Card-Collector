@@ -4,7 +4,7 @@
 
 ### Created By: Matthew Russelli
 
-#### [Linkedin](https://www.linkedin.com/in/matthewrusselli/) | [GitHub](https://github.com/MattRusselli)
+#### [Linkedin](https://www.linkedin.com/in/matthewrusselli/) | [GitHub](https://github.com/MattRusselli) | [Instagram](https://www.instagram.com/nvmeiammatt/)
 
 ---
 
@@ -23,6 +23,7 @@
 - Mongoose/MongoDB
 - Express
 - React JS
+  - Axios for the API call
 - Node JS
 
 ---
@@ -31,7 +32,7 @@
 
 #### A wireframe concept of what I plan for the app to look like
 
-#### [Wireframe Card Collector App](https://wireframe.cc/pro/edit/568227)
+#### [Wireframe Card Collector App](https://wireframe.cc/pro/pp/31b4645e8568227)
 
 ---
 
@@ -42,3 +43,5 @@
 ---
 
 ### **_Credits_**
+
+#### [Yugioh DB](https://db.ygoprodeck.com/) for images and informaiton on the sets/cards

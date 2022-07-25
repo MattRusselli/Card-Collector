@@ -1,0 +1,23 @@
+{
+  "name": "card-collector",
+  "version": "1.0.0",
+  "description": "## Date: 7/24/2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattRusselli/Card-Collector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattRusselli/Card-Collector/issues"
+  },
+  "homepage": "https://github.com/MattRusselli/Card-Collector#readme",
+  "dependencies": {
+    "mongoose": "^6.4.6"
+  }
+}

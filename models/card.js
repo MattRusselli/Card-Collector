@@ -1,4 +1,5 @@
-const { Schema } = require('mongoose')
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
 const cardSchema = new Schema(
   {
@@ -12,4 +13,4 @@ const cardSchema = new Schema(
   { timestamps: true }
 )
 
-module.exports = cardSchema
+module.exports = mongoose.model('cards', cardSchema)

@@ -6,7 +6,7 @@ mongoose
     console.log('Connected to MonogoDB')
   })
   .catch((event) => {
-    console.log('connection Error', event.message)
+    console.error('connection Error', event.message)
   })
 mongoose.set('debug', true)
 const db = mongoose.connection

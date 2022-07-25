@@ -1,6 +1,6 @@
 const { Schema } = require('mongoose')
 
-const Set = new Schema(
+const setSchema = new Schema(
   {
     name: { type: String, required: true },
     img: { type: String, required: true },
@@ -9,4 +9,4 @@ const Set = new Schema(
   { timestamps: true }
 )
 
-module.exports = Set
+module.exports = setSchema

@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
-const SetSchema = require('./set')
-const CardSchema = require('./card')
+const setSchema = require('./set')
+const cardSchema = require('./card')
 
-const Set = mongoose.model('Set', SetSchema)
-const Card = mongoose.model('Card', CardSchema)
+const Set = mongoose.model('Set', setSchema)
+const Card = mongoose.model('Card', cardSchema)
 
 module.exports = {
   Set,

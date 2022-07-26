@@ -20,4 +20,6 @@ router.get('/set', controllers.getSet)
 
 router.get('/set/:id', controllers.getSetById)
 
+router.get('/set/card/:id', controllers.getCardBySetId)
+
 module.exports = router

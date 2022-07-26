@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 1em;
+  min-height: 2em;
+  font-family: 'Georgia';
+  display: flex;
+  justify-content: center;
+  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 0.5em;
+  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}

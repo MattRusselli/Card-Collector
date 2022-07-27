@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Home from './components/Home'
 import SetDetails from './pages/SetDetails'
 import ViewSet from './pages/ViewSet'
+import CardDetails from './pages/CardDetails'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sets" element={<SetDetails />} />
-          <Route path="/sets/cards/:setId" element={<ViewSet />} />
+          <Route path="/sets/cards/:set" element={<ViewSet />} />
+          {/* <Route path="/sets/cards/details/:cardId" element={<CardDetails />} /> */}
         </Routes>
       </main>
     </div>

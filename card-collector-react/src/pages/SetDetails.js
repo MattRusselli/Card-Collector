@@ -14,6 +14,7 @@ const SetDetails = () => {
         setSetDetails(res.data.sets)
       })
     }
+    console.log(setDetails)
     getSetDetails()
   }, [])
 

@@ -85,19 +85,6 @@ const getSetById = async (req, res) => {
   }
 }
 
-// const getCardBySetId = async (req, res) => {
-//   try {
-//     const { set } = req.params
-//     const cardInSet = await Card.find(set)
-//     if (cardInSet) {
-//       return res.status(200).json({ cardInSet })
-//     }
-//     return res.status(404).send('Card with the specified Set ID does not exist')
-//   } catch (e) {
-//     return res.status(500).send(e.message)
-//   }
-// }
-
 module.exports = {
   getCard,
   createCard,

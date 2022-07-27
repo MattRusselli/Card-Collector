@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 import Home from './components/Home'
 import SetDetails from './pages/SetDetails'
 import ViewSet from './pages/ViewSet'
-import CardDetails from './pages/CardDetails'
+import Collections from './pages/Collections'
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/collections" element={<Collections />} />
           <Route path="/sets" element={<SetDetails />} />
-          <Route path="/sets/cards/:set" element={<ViewSet />} />
-          {/* <Route path="/sets/cards/details/:cardId" element={<CardDetails />} /> */}
+          <Route path="/sets/cards/:card" element={<ViewSet />} />
         </Routes>
       </main>
     </div>

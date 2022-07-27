@@ -19,10 +19,12 @@ const ViewSet = () => {
     <div className="container-grid">
       {viewCard.map((card) => (
         <CardCard
+          key={card.img}
           img={card.img}
-          onClick={() => {
-            navigate(`/sets/cards/${card._id}`)
-          }}
+          name={card.name}
+          type={card.type}
+          effect={card.effect}
+          rarity={card.rarity}
         />
       ))}
     </div>

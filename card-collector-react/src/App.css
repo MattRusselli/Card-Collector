@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto;
+  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto; */
 }
 
 .App-header {
@@ -25,8 +25,8 @@
   font-family: 'Georgia';
   display: flex;
   justify-content: center;
-  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto;
+  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto; */
 }
 
 .navbar a {
@@ -34,8 +34,8 @@
   color: white;
   font-weight: bold;
   margin-left: 0.5em;
-  cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto;
+  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
+    auto; */
 }
 
 .center {
@@ -45,4 +45,8 @@
   align-items: center;
   margin: auto;
   width: 100%;
+}
+
+.description {
+  flex-wrap: wrap;
 }

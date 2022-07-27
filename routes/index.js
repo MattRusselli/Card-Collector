@@ -11,15 +11,13 @@ router.post('/card', controllers.createCard)
 
 router.get('/card/:id', controllers.getCardById)
 
-router.delete('/card-delete/:id', controllers.deleteCard)
+router.delete('/delete/:id', controllers.deleteCard)
 
-router.put('/card-update/:id', controllers.updateCard)
+router.put('/update/:id', controllers.updateCard)
 
 //route for set
 router.get('/set', controllers.getSet)
 
 router.get('/set/:id', controllers.getSetById)
-
-// router.get('/set/card/:id', controllers.getCardBySetId)
 
 module.exports = router

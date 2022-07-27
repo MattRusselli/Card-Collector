@@ -23,6 +23,7 @@ const SetDetails = () => {
       <div className="set-results container-grid">
         {setDetails.map((set) => (
           <SetCard
+            key={set.name}
             name={set.name}
             numberCardsSet={set.numberCardsSet}
             img={set.img}

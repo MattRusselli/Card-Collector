@@ -110,7 +110,7 @@ const main = async () => {
     },
     {
       name: 'Inzektor Picofalena',
-      img: 'https://ygoprodeck.com/pics/97273514.jpg',
+      img: 'https://i.imgur.com/G5zxGoc.jpg',
       type: 'Link Monster',
       effect:
         '2 Insect monsters      If this card is Link Summoned: You can discard 1 card, then target 1 other Insect monster you control; equip 1 Insect monster from your Deck to it as an Equip Spell that gains this effect.      ● The equipped monster gains 500 ATK/DEF.      You can target 3 Insect monsters in your GY; shuffle them into the Deck, then draw 1 card. You can only use each effect of "Inzektor Picofalena" once per turn.',
@@ -119,7 +119,7 @@ const main = async () => {
     },
     {
       name: 'Monk of the Tenyi',
-      img: 'https://ygoprodeck.com/pics/32519092.jpg',
+      img: 'https://i.imgur.com/bOkHqhc.jpg',
       type: 'Link Monster',
       effect: '1 non-Link "Tenyi" monster',
       rarity: 'Super Rare',
@@ -127,7 +127,7 @@ const main = async () => {
     },
     {
       name: 'Manju of the Ten Thousand Hands',
-      img: 'https://ygoprodeck.com/pics/95492061.jpg',
+      img: 'https://i.imgur.com/UKBjXtO.jpg',
       type: 'Effect Monster',
       effect:
         'When this card is Normal or Flip Summoned: You can add 1 Ritual Monster or 1 Ritual Spell from your Deck to your hand.',
@@ -136,7 +136,7 @@ const main = async () => {
     },
     {
       name: 'Tanngnjostr of the Nordic Beasts',
-      img: 'https://ygoprodeck.com/pics/14677495.jpg',
+      img: 'https://i.imgur.com/5eJCTAk.jpg',
       type: 'Effect Monster',
       effect:
         'When a monster you control is destroyed by battle and sent to your GY: You can Special Summon this card from your hand. Once per turn, when this Defense Position card on the field is changed to face-up Attack Position: You can Special Summon 1 "Nordic Beast" monster from your Deck in Defense Position, except "Tanngnjostr of the Nordic Beasts".',
@@ -145,7 +145,7 @@ const main = async () => {
     },
     {
       name: 'Dverg of the Nordic Alfar',
-      img: 'https://ygoprodeck.com/pics/13455953.jpg',
+      img: 'https://i.imgur.com/uWFugYf.jpg',
       type: 'Effect Monster',
       effect:
         'After you Normal Summon this card, you can Normal Summon 1 "Nordic" monster during your Main Phase this turn, in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If this face-up card on the field is sent to the GY: Target 1 "Nordic Relic" card in your GY; add that target to your hand.',
@@ -154,7 +154,7 @@ const main = async () => {
     },
     {
       name: 'The Phantom Knights of Silent Boots',
-      img: 'https://ygoprodeck.com/pics/36426778.jpg',
+      img: 'https://i.imgur.com/HWGsA1H.jpg',
       type: 'Effect Monster',
       effect:
         'If you control a "The Phantom Knights" monster, you can Special Summon this card (from your hand). You can only Special Summon "The Phantom Knights of Silent Boots" once per turn this way. You can banish this card from your GY; add 1 "Phantom Knights" Spell/Trap from your Deck to your hand. You can only use this effect of "The Phantom Knights of Silent Boots" once per turn.',
@@ -163,7 +163,7 @@ const main = async () => {
     },
     {
       name: 'Destiny HERO - Celestial',
-      img: 'https://ygoprodeck.com/pics/63362460.jpg',
+      img: 'https://i.imgur.com/IDxvC7j.jpg',
       type: 'Effect Monster',
       effect:
         'When this card declares an attack: You can target 1 face-up Spell your opponent controls; destroy it, and if you do, inflict 500 damage to your opponent. While you have no cards in your hand, except the turn this card was sent to the GY: You can banish this card and 1 "Destiny HERO" monster from your GY; draw 2 cards. You can only use this effect of "Destiny HERO - Celestial" once per turn.',
@@ -172,7 +172,7 @@ const main = async () => {
     },
     {
       name: 'Vampire Familiar',
-      img: 'https://ygoprodeck.com/pics/34250214.jpg',
+      img: 'https://i.imgur.com/HuKuHiz.jpg',
       type: 'Effect Monster',
       effect:
         'If this card is Special Summoned: You can pay 500 LP; add 1 "Vampire" monster from your Deck to your hand, except "Vampire Familiar". If this card is in your GY: You can send 1 "Vampire" card from your hand or face-up field to the GY; Special Summon this card, but banish it when it leaves the field. You can only use each effect of "Vampire Familiar" once per turn.',
@@ -181,7 +181,7 @@ const main = async () => {
     },
     {
       name: 'Vampire Retainer',
-      img: 'https://ygoprodeck.com/pics/70645913.jpg',
+      img: 'https://i.imgur.com/knekWo7.jpg',
       type: 'Effect Monster',
       effect:
         'If this card is Special Summoned: You can pay 500 LP; add 1 "Vampire" Spell/Trap from your Deck to your hand. If this card is in your GY: You can send 1 "Vampire" card from your hand or face-up field to the GY; Special Summon this card, but banish it when it leaves the field. You can only use each effect of "Vampire Retainer" once per turn.',
@@ -190,7 +190,7 @@ const main = async () => {
     },
     {
       name: 'Impcantation Talismandra',
-      img: 'https://ygoprodeck.com/pics/80701178.jpg',
+      img: 'https://i.imgur.com/UaXkJ6I.jpg',
       type: 'Effect Monster',
       effect:
         'You can reveal 1 Ritual Monster in your hand; Special Summon both this card from your hand and 1 "Impcantation" monster from your Deck, except "Impcantation Talismandra". If this card is Special Summoned from the Deck: You can add 1 Ritual Monster from your Deck to your hand. You can only use 1 "Impcantation Talismandra" effect per turn, and only once that turn. You cannot Special Summon monsters from the Extra Deck.',
@@ -199,7 +199,7 @@ const main = async () => {
     },
     {
       name: 'Impcantation Penciplume',
-      img: 'https://ygoprodeck.com/pics/82085295.jpg',
+      img: 'https://i.imgur.com/SzHGfHe.jpg',
       type: 'Effect Monster',
       effect:
         'You can reveal 1 Ritual Monster in your hand; Special Summon both this card from your hand and 1 "Impcantation" monster from your Deck, except "Impcantation Penciplume". If this card is Special Summoned from the Deck: You can target 1 Ritual Monster in your GY; add it to your hand. You can only use 1 "Impcantation Penciplume" effect per turn, and only once that turn. You cannot Special Summon monsters from the Extra Deck.',
@@ -208,7 +208,7 @@ const main = async () => {
     },
     {
       name: 'Ghostrick Angel of Mischief',
-      img: 'https://ygoprodeck.com/pics/53334641.jpg',
+      img: 'https://i.imgur.com/DXYsAzU.jpg',
       type: 'XYZ Monster',
       effect:
         '2 Level 4 monsters      You can also Xyz Summon this card by using a "Ghostrick" Xyz Monster you control as the Xyz Material, except "Ghostrick Angel of Mischief". (Xyz Materials attached to that monster also become Xyz Materials on this card.) When the number of Xyz Materials on this card becomes 10, you win the Duel. Once per turn: You can detach 1 Xyz Material from this card; add 1 "Ghostrick" Spell/Trap Card from your Deck to your hand. Once per turn: You can attach 1 "Ghostrick" card from your hand to this card as an Xyz Material.',
@@ -217,7 +217,7 @@ const main = async () => {
     },
     {
       name: 'Gullveig of the Nordic Ascendant',
-      img: 'https://ygoprodeck.com/pics/90207654.jpg',
+      img: 'https://i.imgur.com/CsALRYV.jpg',
       type: 'Link Monster',
       effect:
         '1 Level 5 or lower "Nordic" monster      If this card is Link Summoned: You can banish up to 3 cards from your hand and/or field, and if you do, Special Summon that many "Nordic" monsters from your Deck in Defense Position, also, for the rest of this turn, you cannot Special Summon monsters, except "Aesir" monsters, nor Normal Summon/Set any monsters. You can only use this effect of "Gullveig of the Nordic Ascendant" once per turn. While this card points to an "Aesir" monster, your opponent cannot target that monster with card effects, also monsters your opponent controls cannot target this card for attacks.',
@@ -226,7 +226,7 @@ const main = async () => {
     },
     {
       name: 'Dark Magical Circle',
-      img: 'https://ygoprodeck.com/pics/47222536.jpg',
+      img: 'https://i.imgur.com/3i1Nd6b.jpg',
       type: 'Spell Card',
       effect:
         'When this card is activated: Look at the top 3 cards of your Deck, then you can reveal 1 "Dark Magician" or 1 Spell/Trap that specifically lists the card "Dark Magician" in its text, among them, and add it to your hand, also place the remaining cards on top of your Deck in any order. If "Dark Magician" is Normal or Special Summoned to your field (except during the Damage Step): You can target 1 card your opponent controls; banish it. You can only use each effect of "Dark Magical Circle" once per turn.',
@@ -235,7 +235,7 @@ const main = async () => {
     },
     {
       name: 'Ghostrick Break',
-      img: 'https://ygoprodeck.com/pics/80802524.jpg',
+      img: 'https://i.imgur.com/h1NBXEs.jpg',
       type: 'Trap Card',
       effect:
         'When exactly 1 face-up "Ghostrick" monster you control (and no other cards) is destroyed by battle or an opponents card effect and sent to your Graveyard: Target 2 "Ghostrick" monsters in your Graveyard with different names from the destroyed monster; Special Summon them in face-down Defense Position.',

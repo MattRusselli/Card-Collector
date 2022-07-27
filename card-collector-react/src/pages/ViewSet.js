@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import CardCard from '../components/CardCard'
-import { useNavigate } from 'react-router-dom'
 
 const ViewSet = () => {
   const [setss] = useState([])
   const [viewCard, setViewCard] = useState([])
-  let navigate = useNavigate()
 
   useEffect(() => {
     axios.get(`http://localhost:3001/api/card/`).then((res) => {

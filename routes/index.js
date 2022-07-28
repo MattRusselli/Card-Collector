@@ -11,9 +11,9 @@ router.post('/card', controllers.createCard)
 
 router.get('/card/:id', controllers.getCardById)
 
-router.delete('/delete/:id', controllers.deleteCard)
+router.delete('/card/:id', controllers.deleteCard)
 
-router.put('/update/:id', controllers.updateCard)
+router.put('/card/:id', controllers.updateCard)
 
 //route for set
 router.get('/set', controllers.getSet)

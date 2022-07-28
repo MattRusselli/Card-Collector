@@ -14,7 +14,7 @@ const main = async () => {
   // const sets2 = await new Set({
   //   name: 'Legendary Duelists: Season 3 (LDS3)',
   //   img: 'https://i.imgur.com/DaxtC5j.png',
-  //   numberCardsSet: 41
+  //   numberCardsSet: 150
   // })
   // sets2.save()
 
@@ -26,7 +26,7 @@ const main = async () => {
       effect:
         'Cannot be destroyed by battle with a monster Special Summoned from the Extra Deck. You can only use each of the following effects of "Dogmatika Ecclesia, the Virtuous" once per turn. If a monster Special Summoned from the Extra Deck is on the field: You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can activate this effect; add 1 "Dogmatika" card from your Deck to your hand, except "Dogmatika Ecclesia, the Virtuous", also you cannot Special Summon monsters from the Extra Deck for the rest of this turn.',
       rarity: 'Ultimate Rare',
-      set: sets1.name
+      set: sets1._id
     },
     {
       name: 'Divine Arsenal AA-ZEUS - Sky Thunder',

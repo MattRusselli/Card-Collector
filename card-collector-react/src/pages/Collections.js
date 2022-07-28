@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 
 const Collections = () => {
-  const [list, setList] = useState([])
+  const [lists, setList] = useState([])
   const initialState = {
     name: '',
     set: '',
@@ -42,11 +42,33 @@ const Collections = () => {
     event.target.reset()
   }
 
-  const deleteCard = async (_id) => {
+  const handleDelete = async (_id) => {
     const res = await axios
       .delete(`http://localhost:3001/api/card/${_id}`)
       .catch((error) => console.log(error))
+    console.log(res.data.cards)
   }
+
+  const deleteCard = async (item) => {
+    let index = lists.indexOf(item)
+    let temp = [...lists]
+    temp.splice(index, 1)
+    setList(temp)
+  }
+
+  const handleUpdate = async (_id, name, set, rarity) => {
+    const res = await axios
+      .put(`http://localhost:3001/api/card/${_id}`, { name, set, rarity })
+      .catch((error) => console.log(error))
+    console.log(res.data.cards)
+  }
+
+  //   const updateCard = async (item) => {
+  //     let index = lists.indexOf(item)
+  //     let temp = [...lists]
+  //     temp.splice(index, 1)
+  //     setList(temp)
+  //   }
 
   return (
     <div>
@@ -76,11 +98,27 @@ const Collections = () => {
       </form>
       <div>
         <h1>Collection:</h1>
-        {list.map((list) => (
+        {lists.map((list) => (
           <div key={list._id}>
             <h3>Name: {list.name}</h3>
             <p>Set: {list.set}</p>
             <p>Rarity: {list.rarity}</p>
+            <button
+              onClick={() => {
+                handleDelete(list._id)
+                deleteCard(list)
+              }}
+            >
+              Delete
+            </button>
+            <button
+              onClick={() => {
+                handleUpdate(list._id)
+                // updateCard(list)
+              }}
+            >
+              Update
+            </button>
           </div>
         ))}
       </div>

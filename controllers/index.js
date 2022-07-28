@@ -51,12 +51,10 @@ const deleteCard = async (req, res) => {
 
 const updateCard = async (req, res) => {
   try {
-    const { text } = req.body
-    const cardUpdate = await Card.findByIdAndUpdate(req.params.Id, { text })
-    if (!cardUpdate) {
-      res.status(500).send('Card not found')
-    }
-    return res.status(200).json({ cardUpdate })
+    const cardUpdate = await Card.findByIdAndUpdate(req.params.id, req.body, {
+      new: true
+    })
+    res.status(200).json({ cardUpdate })
   } catch (error) {
     return res.status(500).send(error.message)
   }

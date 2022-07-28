@@ -56,22 +56,23 @@ const Collections = () => {
     setList(temp)
   }
 
-  const handleUpdate = async (_id, name, set, rarity) => {
+  const handleUpdate = async (_id) => {
     const res = await axios
-      .put(`http://localhost:3001/api/card/${_id}`, { name, set, rarity })
+      .put(`http://localhost:3001/api/card/${_id}`, formState)
+      .then((res) => console.log(res.status))
       .catch((error) => console.log(error))
-    console.log(res.data.cards)
   }
 
-  //   const updateCard = async (item) => {
-  //     let index = lists.indexOf(item)
-  //     let temp = [...lists]
-  //     temp.splice(index, 1)
-  //     setList(temp)
-  //   }
+  const updateCard = async (item) => {
+    let index = lists.indexOf(item)
+    let temp = [...lists]
+    temp.push(index, 3)
+    setList(temp)
+  }
 
   return (
     <div>
+      <h1>Your Collection:</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
@@ -96,25 +97,32 @@ const Collections = () => {
         />
         <button type="submit">Send</button>
       </form>
-      <div>
-        <h1>Collection:</h1>
+      <div className="ok">
         {lists.map((list) => (
           <div key={list._id}>
-            <h3>Name: {list.name}</h3>
+            <p>Name: {list.name}</p>
             <p>Set: {list.set}</p>
             <p>Rarity: {list.rarity}</p>
             <button
+              className="collectionButton"
               onClick={() => {
-                handleDelete(list._id)
-                deleteCard(list)
+                const answer = window.confirm(
+                  'Are you sure you want to delete this Super Rare Awesome Chocolatey Fudge-Coated Mega Super Card from your collection?!'
+                )
+                if (answer) {
+                  handleDelete(list._id)
+                  deleteCard(list)
+                } else {
+                  return
+                }
               }}
             >
               Delete
             </button>
             <button
               onClick={() => {
-                handleUpdate(list._id)
-                // updateCard(list)
+                handleUpdate(list._id, formState)
+                updateCard(list, formState)
               }}
             >
               Update

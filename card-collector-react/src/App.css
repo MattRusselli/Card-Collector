@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto; */
+  cursor: url('https://i.imgur.com/oxyjhzp.jpg'), auto;
 }
 
 .App-header {
@@ -25,8 +24,7 @@
   font-family: 'Georgia';
   display: flex;
   justify-content: center;
-  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto; */
+  cursor: url('https://i.imgur.com/oxyjhzp.jpg'), auto;
 }
 
 .navbar a {
@@ -34,8 +32,7 @@
   color: white;
   font-weight: bold;
   margin-left: 0.5em;
-  /* cursor: url('https://www.simpleimageresizer.com/_uploads/photos/8755ae5a/89631139_48x48.jpeg'),
-    auto; */
+  cursor: url('https://i.imgur.com/oxyjhzp.jpg'), auto;
 }
 
 .center {
@@ -47,6 +44,11 @@
   width: 100%;
 }
 
-.description {
-  flex-wrap: wrap;
-}
+/* .card {
+  margin-right: 25%;
+  padding: 10px;
+} */
+
+/* .description {
+  margin-left: 75%;
+} */

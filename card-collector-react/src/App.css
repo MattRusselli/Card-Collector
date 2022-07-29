@@ -44,11 +44,12 @@
   width: 100%;
 }
 
-/* .card {
-  margin-right: 25%;
+.cardDetails {
+  display: flex;
   padding: 10px;
-} */
+}
 
-/* .description {
-  margin-left: 75%;
-} */
+.description {
+  padding: 10px;
+  margin-top: 10%;
+}

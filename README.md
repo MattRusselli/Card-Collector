@@ -45,3 +45,7 @@
 ### **_Credits_**
 
 #### [Yugioh DB](https://db.ygoprodeck.com/) for images and informaiton on the sets/cards
+
+#### Various Assignments and lessons throughout Unit 2
+
+#### My classmates who were threre to support me and help me when I would get stuck
